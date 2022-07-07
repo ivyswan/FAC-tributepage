@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;    
+    color: #333652;
+    background-color: #E9EAEC
+  }
+
+p.tagline{
+    font-size: 2em;
+}
+   
+  .nav ul {
+    list-style: none;
+    background-color: #333652;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.2em;
+    display: inline-block;
+    margin-right: -4px;    
+  }
+
+  .nav a {
+    text-decoration: none;
+    color: #FAD02C;
+    display: block;
+    transition: .3s background-color;
+  }
+   
+  .nav a:hover {
+    background-color: #90ADC6;
+  }
+   
+  .nav a.active {
+    background-color: #fff;
+    color: #444;
+  }
+
+  .banner, .services{
+      padding: 12em 5em;
+  }
+
+  .banner{
+      background: url(https://images.unsplash.com/photo-1491895200222-0fc4a4c35e18?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+
+  .services img{
+      width: 600px;
+      margin-left: 1em;
+      float: right;
+  }
+
+  footer{
+      background-color: #FAD02C;
+      text-align: center;
+      height: 50px;
+      margin-top: 5em;
+      padding-top: 2em;
+  }
+
+footer a{
+    text-decoration: none;   
+    color: #333652; 
+    transition: .3s color;  
+    border-bottom: 3px solid #90ADC6;
+  }
+
+footer a:hover{
+      color: #90ADC6;
+      border: none;
+  }
+
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+    .nav li {
+        display: block;
+        width: 100%;
+        font-size: 1.2em;
+        line-height: 40px;
+        height: 40px;
+        border-bottom: 1px solid #888;
+    }
+    .banner, .services{
+        padding: 6em 3em;
+    }
+    .services img{
+        width: 100%;
+        margin-bottom: 3em;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .main{
+        margin: 0;
+    }
+    .services img{
+        width: 100%;
+        margin-bottom: 5em;
+    }
+}
+/* tablets/desktops and up */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* large desktops and up */
+@media screen and (min-width: 1200px) {
+
+}
